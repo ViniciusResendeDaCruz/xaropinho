@@ -1,15 +1,15 @@
-# 'Oloquinho' Command Line Sound
+# 'Rapaz' Command Line Sound
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 <div style="text-align: center">
-    <img src="./oloquinho.jpg" height="300"/>
+    <img src="./xaropinho.jpg" height="300"/>
 </div>
 
-Play famous "Oloquinho meu" sound.
+Play famous "RAPAZ" sound from Xaropinho.
 
-https://www.youtube.com/watch?v=w0hXSWDRrZ0
+This is a fork of the awesome [Oloquinho](https://github.com/oloquinho/oloquinho) project. Special thanks to their team for the original implementation!
 
-Built with the work of [Omaewa](https://github.com/BrOrlandi/omaewa) command line sound.
+https://www.youtube.com/watch?v=z1uyJQ8tusY
 
 ## Compatibility
 
@@ -21,33 +21,35 @@ Built with the work of [Omaewa](https://github.com/BrOrlandi/omaewa) command lin
 
 Install globally:
 
-    npm install -g oloquinho
+    npm install -g xaropinho
 
 ## Running
 
 With npm:
 
-    npm install -g oloquinho
-    oloquinho
+    npm install -g xaropinho
+    xaropinho
 
 Npx:
 
-    npx oloquinho
+    npx xaropinho
 
 Node script:
 
-    import oloquinho from 'oloquinho';
+    import xaropinho from 'xaropinho';
 
-    oloquinho();
+    xaropinho();
 
 ## See also
 
+ - [Original Oloquinho Project](https://github.com/oloquinho/oloquinho/)
  - [Faustão Errou](https://github.com/BrOrlandi/faustao-errou/)
  - [Omaewa](https://github.com/BrOrlandi/omaewa/)
  - [X-Files](https://github.com/BrOrlandi/xfiles/)
-## Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+## Credits
+
+This project is a fork of [Oloquinho](https://github.com/oloquinho/oloquinho). Many thanks to the original contributors:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->

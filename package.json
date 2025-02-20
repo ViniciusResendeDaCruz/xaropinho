@@ -1,24 +1,24 @@
 {
-  "name": "oloquinho",
+  "name": "xaropinho",
   "version": "1.1.1",
-  "description": "Oloquinho meu",
+  "description": "Rapaaz",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/luanorlandi/oloquinho.git"
+    "url": "git+ssh://git@github.com/ViniciusResendeDaCruz/xaropinho.git"
   },
-  "author": "Luan Orlandi <luanorlandi@gmail.com>",
+  "author": "Vinicius Resende Da Cruz <vinicius.resende.cruz@gmail.com>",
   "license": "MIT",
   "bin": {
-    "oloquinho": "./src/cli.js"
+    "xaropinho": "./src/cli.js"
   },
   "bugs": {
-    "url": "https://github.com/luanorlandi/oloquinho/issues"
+    "url": "https://github.com/ViniciusResendeDaCruz/xaropinho/issues"
   },
-  "homepage": "https://github.com/luanorlandi/oloquinho#readme",
+  "homepage": "https://github.com/ViniciusResendeDaCruz/xaropinho#readme",
   "dependencies": {
     "meow": "^8.0.0"
   }

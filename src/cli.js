@@ -1,13 +1,37 @@
 #!/usr/bin/env node
 
 const meow = require('meow');
-const oloquinho = require('./index')
+const xaropinho = require('./index')
 
-// TODO: when tail call optimization is implemented on NodeJS, simplify this.
+const cli = meow(`
+  Usage
+    $ xaropinho [options]
+
+  Options
+    --loop, -l  Execute in loop
+    
+  Examples
+    $ xaropinho        # Play once
+    $ xaropinho --loop # Play in loop
+    $ xaropinho -l     # Play in loop
+`, {
+  flags: {
+    loop: {
+      type: 'boolean',
+      alias: 'l'
+    }
+  }
+});
+
 const cliMode = async ({ flags }) => {
-  while(true)
-    await oloquinho()
+  if (flags.loop) {
+    while(true) {
+      await xaropinho()
+    }
+  } else {
+    await xaropinho()
+    process.exit(0)
+  }
 }
 
-const cliInterface = meow({})
-cliMode(cliInterface)
+cliMode(cli)
